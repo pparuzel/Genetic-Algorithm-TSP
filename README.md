@@ -9,13 +9,15 @@
 # Text-based TSP
 The program shows the cities of Poland based on a real latitude and longitude.  
 Possibility of adding more cities.  
-There are two modes avaiable - time-bounded or repetition-bounded:  
-
-```GeneticAlgorithm.run(seconds=NUMBER_OF_SECONDS)```
-
-```GeneticAlgorithm.run(reps=NUMBER_OF_REPETITIONS)```
+There are two modes available - **time-bounded** or **repetition-bounded**:  
+<pre>
+<b>GeneticAlgorithm</b>.run(<b>seconds</b>=<i>NUMBER_OF_SECONDS</i>)
+</pre>
+<pre>
+<b>GeneticAlgorithm</b>.run(<b>reps</b>=<i>NUMBER_OF_REPETITIONS</i>)
+</pre>
 
 # Graphics-based TSP
 Similar to the text-based program.  
-Press _SPACE_ to toggle program PAUSE.  
+Press **SPACE** to toggle program PAUSE _(notice that on the animation below)_.  
 ![TSP-gif](assets/tsp_graphics.gif)
