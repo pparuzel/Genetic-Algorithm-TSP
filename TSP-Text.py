@@ -21,11 +21,12 @@ def main():
     print('Cities:', end=' ')
     print(*(city for city in poland.cities), sep=', ')
     ga = GeneticAlgorithm(100, mutation_rate=0.5, ptype=Route, args=(poland.cities,))
-    ga.run(seconds=2)
-    fittest = ga.best()
+    ga.run(seconds=10)
+    fittest = ga.alltime_best
     best_fitness = fittest.fitness
     print('Best route:', fittest)
     print('Best fitness:', best_fitness)
+    print('Generations:', ga.generation)
 
 
 if __name__ == '__main__':
