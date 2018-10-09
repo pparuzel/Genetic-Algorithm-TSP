@@ -64,6 +64,6 @@ class GeneticAlgorithm:
                     self._fittest = pretender.copy()
 
                 self._generation += 1
-                if time.time() - t0 < seconds:
+                if time.time() - t0 >= seconds:
                     break
                 self.next_generation()
