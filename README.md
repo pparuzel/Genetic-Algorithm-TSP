@@ -17,4 +17,5 @@ There are two modes avaiable - time-bounded or repetition-bounded:
 
 # Graphics-based TSP
 Similar to the text-based program.  
-Press SPACE to toggle program PAUSE.
+Press _SPACE_ to toggle program PAUSE.  
+![TSP-gif](assets/tsp_graphics.gif)
