@@ -2,6 +2,8 @@
 
 **Tested on Python version:** 3.7  
 
+**Important:** If you want to use your own coordinates for GraphicsBased TSP please note that function `map_cities_onto_screen` needs to be changed as it is hardcoded towards showing Poland.
+
 **Average generations to solution:**
  * With graphics about **20k** (population_size=20)
  * With text about **600** (population_size=100)
